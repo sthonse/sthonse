@@ -1,0 +1,50 @@
+* {
+    font-family: 'Play', sans-serif;
+    background-color: darkslategray;
+    color: ivory;
+    overflow: hidden;
+  }
+
+  .resize {
+    width: 400px;
+    height: auto;
+}
+
+.resize {
+    width: 300px;
+    height: auto;
+}
+
+body {
+    position: relative;
+    align-items: center;
+    padding: 2em;
+    width: 36em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headers{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.normaltext{
+    font-size: 24px;
+}
+
+.notice {
+    font-size: 8px;
+}
+
+.button {
+    font: bold 11px 'Play';
+    text-decoration: none;
+    background-color: gray;
+    color: ivory;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }
