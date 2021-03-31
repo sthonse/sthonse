@@ -2,16 +2,10 @@
     font-family: 'Play', sans-serif;
     background-color: darkslategray;
     color: ivory;
-    overflow: hidden;
-  }
-
-  .resize {
-    width: 400px;
-    height: auto;
 }
 
 .resize {
-    width: 300px;
+    width: 400px;
     height: auto;
 }
 
@@ -19,14 +13,20 @@ body {
     position: relative;
     align-items: center;
     padding: 2em;
-    width: 36em;
+    width: 40em;
     margin-left: auto;
     margin-right: auto;
+    padding: 6px 6px 6px 6px;
+    border-top: 1px solid ivory;
+    border-right: 1px solid ivory;
+    border-bottom: 1px solid ivory;
+    border-left: 1px solid ivory;
 }
 
-.headers{
+.headers {
     font-size: 36px;
     font-weight: bold;
+    
 }
 
 .normaltext{
